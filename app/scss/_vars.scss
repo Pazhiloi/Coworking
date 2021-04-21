@@ -1,0 +1,41 @@
+$default: #2b2311;
+$accent: #ff004c;
+$title:#2b2311;
+$bg: #fff;
+%mont-900{
+  font-family: 'MontserratAlternates-Black', sans-serif;
+  font-weight: 900;
+}
+%mont-700{
+  font-family: 'MontserratAlternates-Bold', sans-serif;
+  font-weight: 700;
+}
+%mont-600{
+  font-family: 'MontserratAlternates-SemiBold', sans-serif;
+  font-weight: 600;
+}
+%mont-500{
+  font-family: 'MontserratAlternates-Medium', sans-serif;
+  font-weight: 500;
+}
+%mont-400{
+  font-family: 'MontserratAlternates-Regular', sans-serif;
+  font-weight: 400;
+}
+%mont-300{
+  font-family: 'MontserratAlternates-Light', sans-serif;
+  font-weight: 300;
+}
+%roboto-500{
+  font-family: 'Roboto-Medium', sans-serif;
+  font-weight: 500;
+}
+%roboto-400{
+  font-family: 'Roboto-Regular', sans-serif;
+  font-weight: 400;
+}
+%roboto-300{
+  font-family: 'Roboto-Light', sans-serif;
+  font-weight: 300;
+}
+

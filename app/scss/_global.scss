@@ -1,1 +1,47 @@
-
+html,
+body{
+  height: 100%;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  @extend %roboto-300;
+  font-size: 17px;
+  line-height: 31px;
+  color: $default;
+  background-color: $bg;
+}
+.main{
+  flex-grow: 1;
+}
+img{
+  object-fit: cover;
+}
+.container{
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container-wrapper{
+  max-width: 1530px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.main-title,
+.title{
+  font-size: 60px;
+  line-height: 73px;
+}
+.main-title{
+  @extend %mont-700;
+}
+.title{
+  @extend %mont-500;
+  color: $title;
+}
+a{
+  @extend %roboto-300;
+  font-size: 17px;
+  line-height: 22px;
+  color: #2b2311;
+}
