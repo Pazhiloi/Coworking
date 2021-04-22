@@ -183,13 +183,21 @@
 @media(max-width: 635px){
   .header{
     &__inner{
-      min-height: 50vh;
+      min-height: 10vh;
+      background-image: none!important;
+      background-color: #000;
     }
     &__slider{
       display: none;
     }
     &__list{
       display: none;
+    }
+  }
+  .menu{
+    height: 10vh;
+    &__list{
+      background-color: #000;
     }
   }
   .about{
@@ -240,14 +248,6 @@
   .footer{
     &__inner{
       min-height: 180px;
-    }
-  }
-}
-
-@media(max-width: 400px){
-  .header{
-    &__inner{
-     min-height: 40vh;
     }
   }
 }
